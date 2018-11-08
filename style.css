@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, a, img, ul, article, header, nav, section {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #F0ECEE;
+	line-height: 1;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 14px;
+	margin: 0 auto;
+	max-width: 1350px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 600;
+}
+
+p, a {
+	font-weight: 300;
+	color: #88898B;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 32px;
+	line-height: 1.5;
+}
+
+ul {
+	list-style: none;
+	padding-bottom: 15px;
+}
+
+li {
+	padding-bottom: 3px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 19px;
+}
+
+a:hover {
+	color: #FF4850;
+}
+
+.wrapper {
+	margin: 1em 1em;
+}
+
+#logo {
+	font-weight: 400;
+	font-size: 24px;
+	color: black;
+}
+
+.red {
+	color: #FF4850;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px;
+	width: 100%;
+	color: #ffffff;
+	background-color: #FF4850;
+	border-radius: 15px;
+	text-align: center;
+	font-weight: 400;
+	line-height: 1.6;
+}
+
+.btn:hover {
+	background-color: #CCC;
+}
+
+.logo-container {
+	padding-bottom: 20px;
+}
+
+.main-content {
+	margin-bottom: 1.5em;
+}
+
+header {
+	margin-bottom: 4em;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+	body {
+		margin: 0 auto;
+		background-image: url("bulldog.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	p {
+		font-size: 18px;
+	}
+
+	.wrapper {
+		margin: 2em 3em;
+	}
+
+	header {
+		display: flex;
+		align-items: baseline;
+	}
+
+	nav {
+		flex: 1;
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	li {
+		display: inline-block;
+		padding-right: 20px;
+	}
+
+	ul, li {
+		padding-bottom: 0;
+	}
+
+	.btn {
+		width: auto;
+	}
+
+	.main-content-container {
+		margin-top: 13em;
+	}
+
+	.main-content {
+		width: 50%;
+		padding-right: 90px;
+	}
+
+	.main-content p {
+		margin-bottom: 1.5em;
+	}
+
+}
